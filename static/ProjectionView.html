@@ -1,0 +1,44 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<h2>Player Projection</h2>
+
+<body>
+    <div class="defender-projection">
+        <form method="GET">
+            <input id="player_defender" name="player" placeholder="Defender Projection..." />
+            <input type="button" value="Submit" onclick="projection_defender()">
+        </form>
+    </div><br>
+
+    <div class="midfielder-projection">
+        <form method="GET">
+            <input id="player_midfielder" name="player" placeholder="Midfield Projection..." />
+            <input type="button" value="Submit" onclick="projection_midfield()">
+        </form>
+    </div> <br>
+
+
+    <div class="forward-projection">
+        <form method="GET">
+            <input id="player_forward" name="player" placeholder="Forward Projection..." />
+            <input type="button" value="Submit" onclick="projection_forward()">
+        </form>
+    </div><br>
+
+    <div class="goalie-projection">
+        <form method="GET">
+            <input id="player_goalie" name="player" placeholder="Goalie Projection..." />
+            <input type="button" value="Submit" onclick="projection_goalie()">
+        </form>
+    </div><br>
+    <table id="table-1" style="height: 500px" style="overflow-y:scroll;">
+    </table>
+</body>
+<script defer src="index.js" defer></script>
+
+</html>

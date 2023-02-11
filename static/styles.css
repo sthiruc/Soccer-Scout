@@ -1,0 +1,133 @@
+.defender-projection {
+
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.midfielder-projection {
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.forward-projection {
+
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+.goalie-projection {
+
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif
+}
+
+* {
+    outline: 0;
+}
+
+.time {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.time span {
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px 20px;
+    color: #fff;
+    opacity: 0.3;
+}
+
+#mySidebar {
+    background-color: orange;
+}
+
+.tableFixHead {
+    overflow: auto;
+    height: 500px;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 1;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#table {
+    border-collapse: collapse;
+    border-spacing: 4px;
+    width: 65%;
+    max-height: 500px;
+
+
+    bottom: 20%;
+    /*[wherever you want it]*/
+    right: 80px;
+    padding: 20px;
+    position: static;
+
+}
+
+#table-1 {
+    border-collapse: collapse;
+    border-spacing: 4px;
+    width: 65%;
+    max-height: 500px;
+    position: absolute;
+
+    /*[wherever you want it]*/
+    right: 20%;
+    padding: 5px;
+
+
+}
+
+tr {
+    text-align: left;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+th {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    word-spacing: 10%;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: white;
+
+}
+
+input {
+    padding: 8px;
+}
